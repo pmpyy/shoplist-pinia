@@ -86,4 +86,4 @@ header{
 .lighBlue{
   color: #44A0AD
 }
-</style>../stores/chart
+</style>
