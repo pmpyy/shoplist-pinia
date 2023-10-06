@@ -29,11 +29,6 @@ const router = createRouter({
       name: 'discription',
       component: Discription
     },
-    {
-      path: '/navmilk',
-      name: 'navmilk',
-      component: Navmilk
-    }
   ]
 })
 
