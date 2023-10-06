@@ -32,7 +32,7 @@
 <div class="container">
   <nav class="navbar navbar-expand-lg body" style="background-color: #fde3fd;">
     <div class="container-fluid">
-      <hr class="center"><RouterLink to="/"><img src="https://th.bing.com/th/id/R.d9cdcccbf59cd81948cd5cfe11ba209e?rik=tTgQXDhVsHiqfQ&pid=ImgRaw&r=0" alt="" style="max-width: 80px;"></RouterLink>
+      <hr class="name"><RouterLink to="/"><img src="https://th.bing.com/th/id/R.d9cdcccbf59cd81948cd5cfe11ba209e?rik=tTgQXDhVsHiqfQ&pid=ImgRaw&r=0" alt="" style="max-width: 80px;"></RouterLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

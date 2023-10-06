@@ -39,9 +39,9 @@ function del(i) {
     <tr v-for="(bookings, index) in storelist" :key="index">
       <th scope="row">{{index+1}}</th>
       <td>{{bookings.product}}</td>
-      <td><RouterLink to="/discription"><img :src="bookings.img" alt="" style="max-width: 200px;"> <br>กดเพื่อดูรายละเอียดสินค้า</RouterLink></td>
+      <td><img :src="bookings.img" alt="" style="max-width: 200px;"></td>
       <td>
-        <button type="button" class="btn btn-outline-dark m-1" @click="bookings.numproduct ++"><i class="fa-solid fa-basket-shopping" style="color: #1b58db;"></i></button>
+        <button type="button" class="btn btn-outline-dark m-1" @click="bookings.numproduct ++"><i class="fa-solid fa-basket-shopping" style="color: #44A0AD;"></i></button>
         {{ bookings .numproduct }} 
         <button type="button" class="btn btn-outline-danger m-1" @click="del(index)" v-if="bookings.numproduct> 0"><i class="fa-solid fa-eraser"></i></button>
       </td>

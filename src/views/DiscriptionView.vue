@@ -28,7 +28,7 @@ const Mlist = allmenu.menulist;
             <div class="card-body">
               <p><strong>รายละเอียดสินค้า </strong><br>{{ Mlist[allmenu.id].discription }}</p>
               <p class="card-text">{{ Mlist[allmenu.id].ml }}</p>
-              <p class="card-text"> <b>พลังงาน :</b> {{ Mlist[allmenu.id].cal }}Kcal</p>
+              <p class="card-text"> <b>พลังงาน : </b>{{ Mlist[allmenu.id].cal }} Kcal</p>
               <p class="card-text"><b>ราคา </b>: {{ Mlist[allmenu.id].price }} บาท</p>
              
             </div>

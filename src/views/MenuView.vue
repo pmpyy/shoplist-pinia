@@ -24,13 +24,13 @@ const Mlist = allmenu.menulist
     <div class="row mb-2 ">
   <div class="col-md-6" v-for="(n,index) in Mlist" :key="index">
     <div class="card h-80" >
-      <img :src=" n.img " class="card-img-top centered-image" alt="productimg">
+      <img :src=" n.img " class="card-img-top centered-image" alt="productimg" style="max-height: 580px;">
       <div class="card-body">
         <h5 class="card-title"><strong>{{ n.product }}</strong> {{n.ml}}</h5>
         <div class="d-flex mt-3">
         <div class="me-auto">
-          <p class="card-text"> <b>พลังงาน :</b> {{ Mlist[allmenu.id].cal }}Kcal</p>
-              <p class="card-text"><b>ราคา :</b> {{ Mlist[allmenu.id].price }} บาท</p>
+          <p class="card-text"> <b>พลังงาน :</b>{{ Mlist[allmenu.id].cal}} Kcal</p>
+          <p class="card-text"><b>ราคา :</b>{{Mlist[allmenu.id].price}} บาท</p>
         </div>
         <div>
           <div class="d-flex mt-3">
