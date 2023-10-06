@@ -1,16 +1,11 @@
 <script setup>
 import { RouterView } from 'vue-router'
 //import HelloWorld from './components/HelloWorld.vue'
-import Navmilk from './components/navmilk.vue'; 
+
 </script>
 
 <template>
-  <header>
-    <Navmilk></Navmilk>
-  </header>
-
-
-  <RouterView />
+  <RouterView></RouterView>
 </template>
 
 <style scoped>

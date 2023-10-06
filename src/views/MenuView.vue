@@ -2,7 +2,7 @@
 //import { ref } from 'vue';
 import { RouterLink } from 'vue-router';
 import {menuStore} from '../stores/menu'
-
+import navmike from '../components/navmilk.vue'
 
 
 
@@ -15,6 +15,7 @@ const Mlist = allmenu.menulist
 
 </script>
 <template>
+  <navmike></navmike>
 <header>
   <h1 class="purple"><strong>Fresh Harvest Dairy-Free</strong></h1>
 </header>
