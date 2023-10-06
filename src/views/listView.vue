@@ -1,7 +1,7 @@
 <script setup>
 //import
 //import {ref ,computed} from 'vue'
-import navmike from '../components/navmilk.vue'
+import Navmike from '../components/Navmilk.vue'
 import { RouterLink } from 'vue-router';
 import {menuStore} from '../stores/menu'
 const store = menuStore()
@@ -22,7 +22,7 @@ function del(i) {
 
 
 <template>
-<navmike></navmike>
+<Navmike></Navmike>
 <div class="container">
   <table class="table" >
   <thead>

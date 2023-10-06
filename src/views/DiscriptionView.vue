@@ -1,6 +1,6 @@
 <script setup>
 //import { ref } from 'vue';
-import navmike from '../components/navmilk.vue'
+import Navmilk from '../components/Navmilk.vue'
 import {menuStore} from '../stores/menu'
 
 
@@ -13,7 +13,7 @@ const Mlist = allmenu.menulist;
 
 </script>
 <template>
-<navmike></navmike>
+<Navmilk></Navmilk>
 <header>
   <h5 ><strong>{{ Mlist[allmenu.id].product }}</strong> </h5>
 </header>
